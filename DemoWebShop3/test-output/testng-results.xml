@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser maximised]]>
+    </line>
+    <line>
+      <![CDATA[Application Launched]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login link]]>
+    </line>
+    <line>
+      <![CDATA[Login page displayed]]>
+    </line>
+    <line>
+      <![CDATA[SmokeTesting is pass on login link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button]]>
+    </line>
+    <line>
+      <![CDATA[Home page displayed]]>
+    </line>
+    <line>
+      <![CDATA[SmokeTesting is pass on login button]]>
+    </line>
+    <line>
+      <![CDATA[entered product name into search text field]]>
+    </line>
+    <line>
+      <![CDATA[Search result page displayed]]>
+    </line>
+    <line>
+      <![CDATA[clicked on product link]]>
+    </line>
+    <line>
+      <![CDATA[product details page displayed]]>
+    </line>
+    <line>
+      <![CDATA[entered quantity into quantity text field]]>
+    </line>
+    <line>
+      <![CDATA[clicked on addTocart Button]]>
+    </line>
+    <line>
+      <![CDATA[Confirmation message displayed,Functional testing is pass on addTocart button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On logout link]]>
+    </line>
+    <line>
+      <![CDATA[User Successfully LogedOut]]>
+    </line>
+    <line>
+      <![CDATA[E2E Testing is Pass :)]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window Closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-06T12:25:39 IST" name="Default suite" finished-at="2024-02-06T12:25:55 IST" duration-ms="15804">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T12:25:39 IST" name="Default test" finished-at="2024-02-06T12:25:55 IST" duration-ms="15804">
+      <class name="AddToCartButton.TC_AddToCart_008_Functional_Test">
+        <test-method is-config="true" signature="reports()[pri:0, instance:AddToCartButton.TC_AddToCart_008_Functional_Test@7ae0a9ec]" started-at="2024-02-06T12:25:39 IST" name="reports" finished-at="2024-02-06T12:25:39 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="AccesingBuild(java.lang.String)[pri:0, instance:AddToCartButton.TC_AddToCart_008_Functional_Test@7ae0a9ec]" started-at="2024-02-06T12:25:39 IST" name="AccesingBuild" finished-at="2024-02-06T12:25:44 IST" duration-ms="5042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser maximised]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AccesingBuild -->
+        <test-method is-config="true" signature="loginTest(java.lang.reflect.Method)[pri:0, instance:AddToCartButton.TC_AddToCart_008_Functional_Test@7ae0a9ec]" started-at="2024-02-06T12:25:45 IST" name="loginTest" finished-at="2024-02-06T12:25:50 IST" duration-ms="5435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void AddToCartButton.TC_AddToCart_008_Functional_Test.AddToCartTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Application Launched]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login link]]>
+            </line>
+            <line>
+              <![CDATA[Login page displayed]]>
+            </line>
+            <line>
+              <![CDATA[SmokeTesting is pass on login link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button]]>
+            </line>
+            <line>
+              <![CDATA[Home page displayed]]>
+            </line>
+            <line>
+              <![CDATA[SmokeTesting is pass on login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="AddToCartTest()[pri:0, instance:AddToCartButton.TC_AddToCart_008_Functional_Test@7ae0a9ec]" started-at="2024-02-06T12:25:50 IST" name="AddToCartTest" finished-at="2024-02-06T12:25:54 IST" duration-ms="3741" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[entered product name into search text field]]>
+            </line>
+            <line>
+              <![CDATA[Search result page displayed]]>
+            </line>
+            <line>
+              <![CDATA[clicked on product link]]>
+            </line>
+            <line>
+              <![CDATA[product details page displayed]]>
+            </line>
+            <line>
+              <![CDATA[entered quantity into quantity text field]]>
+            </line>
+            <line>
+              <![CDATA[clicked on addTocart Button]]>
+            </line>
+            <line>
+              <![CDATA[Confirmation message displayed,Functional testing is pass on addTocart button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="logoutTest()[pri:0, instance:AddToCartButton.TC_AddToCart_008_Functional_Test@7ae0a9ec]" started-at="2024-02-06T12:25:54 IST" name="logoutTest" finished-at="2024-02-06T12:25:55 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked On logout link]]>
+            </line>
+            <line>
+              <![CDATA[User Successfully LogedOut]]>
+            </line>
+            <line>
+              <![CDATA[E2E Testing is Pass :)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:AddToCartButton.TC_AddToCart_008_Functional_Test@7ae0a9ec]" started-at="2024-02-06T12:25:55 IST" name="quitbrowser" finished-at="2024-02-06T12:25:55 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Window Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:AddToCartButton.TC_AddToCart_008_Functional_Test@7ae0a9ec]" started-at="2024-02-06T12:25:55 IST" name="flush" finished-at="2024-02-06T12:25:56 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- AddToCartButton.TC_AddToCart_008_Functional_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
