@@ -20,6 +20,7 @@ public class TC_AddToCart_008_Functional_Test extends Baseclass {
 		Reporter.log("entered product name into search text field", true);
 		hp.getSearchButton().click();
 		test.log(Status.INFO,"clicked on search button");
+		test.log(Status.INFO,"i am ready");
 
 		SearchResult_Page srp = new SearchResult_Page(driver);
 		soft.assertEquals(srp.getSearchResultpage().isDisplayed(), "search result page not displayed");
